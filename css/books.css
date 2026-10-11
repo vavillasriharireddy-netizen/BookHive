@@ -1,0 +1,35 @@
+.Hero_Heading{
+    background-color: rgb(77, 46, 6);
+    background-image: none;
+    padding: 100px 50px 0px 0px;
+}
+.Hero_Cards{
+    padding-top: 20px;
+}
+.Hero_Title2 form{
+    display: flex;
+    justify-content: center;
+}
+.Hero_Title2 input{
+    margin-top: 20px;
+    background-color: rgb(218, 208, 208);
+    border: none;
+    padding: 10px 120px 10px 20px;
+    border-radius: 7px;
+}
+.Hero_Title2 input::placeholder{
+    color: rgb(94, 85, 85);
+}
+.Hero_Title_Main1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;    
+}
+option{
+    color: black;
+   background-color: rgb(210, 193, 170);
+}
+.Hero_Title{
+    padding-bottom: 20px;
+}

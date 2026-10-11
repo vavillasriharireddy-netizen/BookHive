@@ -1,0 +1,18 @@
+.Cart_Page{
+    padding-top:150px ;
+}
+.Cart_h2{
+    margin-left: 10px;
+}
+svg{
+    margin-bottom: -2px;
+}
+.Login_Page{
+    padding-top: 120px;
+}
+.Login_Page h2, .Login_Page p{
+    text-align: center;
+}
+.Login_Link ,#Login{
+    color:rgb(99, 61, 17);
+}

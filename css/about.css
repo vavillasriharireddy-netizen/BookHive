@@ -1,0 +1,61 @@
+.Hero_Title_Main {
+    text-align: left;
+    width: 180vh;
+}
+.Hero_Title1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+} 
+.Cards2{
+    background-color: rgb(228, 204, 172);
+}
+.Hero_Title3{
+    background-color: rgb(228, 204, 172);
+    margin-top: -20px;
+}
+.Hero_Title h2{
+    font-size: 17px;
+}
+.Contact_Page{
+    padding-top: 10px;
+}
+.Contact_Mid{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+}
+.Contact_Det{
+    background-color: rgb(248, 234, 216);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px black;
+}
+.Contact_Det label{
+    color: rgb(74, 52, 24);
+}
+.Contact_Det input,.Contact_Det select{
+    padding: 10px 5px 10px 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 3px;
+    background-color: rgb(248, 234, 216);
+    width: 50vh;
+}
+.Contact_Det select{
+    color: black;
+    width: 54vh;
+}
+textarea{
+    background-color: rgb(248, 234, 216);
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 54vh;
+}
+.Contact_Det button{
+    border: 0px;
+    width: 55vh;
+    padding: 9px 0px;
+    background-color: rgb(99, 61, 17);
+    border-radius: 5px;
+}

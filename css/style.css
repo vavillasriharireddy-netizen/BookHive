@@ -1,0 +1,129 @@
+*{
+    /* border: 1px solid black; */
+    color: white;
+}
+body{
+    margin: 0px;
+}
+.Title_Heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 61, 17);
+    margin: 0px 0px;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+.Title_Heading h1{
+    margin-left: 2vh;
+}
+.Title_Nav{
+    margin-top: 7vh;
+    margin-right: 5vh;
+}
+.Title_Nav a{
+    margin-left: 5vh;
+}
+.Hero_Heading{
+    height: 200px;
+    text-align: center;
+    padding: 170px 0px;
+    background-image: url(../images/pezibear-book-8643905_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+.Hero_Button{
+    background-color: rgb(193, 146, 86);
+    color: rgb(80, 46, 1);
+    padding: 2vh;
+    width: fit-content;
+    border-radius: 5px;
+}
+.Hero_Title{
+    background-color: rgb(228, 204, 172);
+}
+.Hero_Title h2,  .Hero_Title h4{
+    color: rgb(74, 52, 24);
+}
+.Hero_Title p, .Hero_Cards_ind i{
+    color: rgb(166, 118, 60);
+}
+.Hero_Cards_ind p{
+    color: rgb(252, 165, 4);
+}
+.Hero_Title_Main{
+    text-align: center;
+    padding-top: 3vh;
+    margin-bottom: 7vh;
+}
+.Hero_Cards{
+    display: grid;
+    margin: 0px 10vh;
+    margin-bottom: 30px;
+    gap:5vh;
+    grid-template-columns: repeat(auto-fit,minmax(175px,1fr));
+}
+.Hero_Cards_ind{
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(247, 232, 213);
+    padding: 8px ;
+}
+.Hero_Cards_ind button{
+    border: 0px;
+    background-color: rgb(99, 61, 17);
+    padding: 5px 20px;
+    font-size: 11px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.Hero_Cards img{
+    height: 150px;
+    width: 150px;
+}
+.Hero_Title2{
+    background-color: rgb(210, 193, 170);
+    padding-bottom: 30px;
+}
+#card {
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+
+}
+
+.Footer_Whole{
+    background-color: rgb(99, 61, 17);
+    text-align: center;
+    font-size: 14px;
+}
+.Footer_Main{
+    margin: 0px 30px;
+    display: grid;
+    text-align: left;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    padding-bottom: 20px;
+}
+.Footer_Main_Ind , .Footer_Main_Ind a{
+    display: block;    
+}
+.Footer_Main_Ind h3{
+    color: rgb(228, 177, 110);
+}
+.Footer_Main_Ind a{
+    padding-bottom: 5px;
+}
+.Footer_Whole hr{
+    margin: 0px 10px;
+    border: 1px solid rgb(120, 69, 3);
+}
+.Footer_Final{
+    padding: 3px 0px;
+}
+.Select{
+    color: Black;
+}
